@@ -25,27 +25,23 @@ What variable(s) should be removed from the input data because they are neither 
 # Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-    Details about the architecture will be extracted. Typically, choices are:
-    Input layer corresponding to the number of features.
-    One or more hidden layers with neurons optimized based on experimentation.
-    Activation functions such as ReLU for hidden layers and Sigmoid for binary classification output.
+    Model Architecture:
+
+    Layers: 3 dense layers
+    Neurons: 3 layers with unspecified numbers of neurons per layer.
+    Activation Functions: All layers used ReLU activation.
 ![image](https://github.com/user-attachments/assets/6a2793b0-d1c4-41be-839d-75d8a155ad6f)
 
 Were you able to achieve the target model performance?
 
-    Analyze the performance metric (e.g., accuracy or loss) achieved on the test set.
-    If target performance was not met, highlight optimization attempts.
+    The model's loss and accuracy were evaluated, but specific performance metrics were not explicitly provided in the notebook.
 
 What steps did you take in your attempts to increase model performance?
 
-    Examples of optimization steps:
-    Adjusting the number of neurons or layers.
-    Changing activation functions or the learning rate.
-    Using dropout layers to reduce overfitting.
+    No specific steps to improve model performance were documented in the notebook.
 
 # Summary
-The model performance summary will include:
+The deep learning model provides a starting point for classifying successful charity applications but may require optimization to improve accuracy and reliability. A potential next step would be to:
 
-Overall results (accuracy, loss, etc.).
-Limitations of the current approach.
-Recommendation for alternative models (e.g., Random Forest, SVM) with reasoning (e.g., feature importance evaluation, handling of non-linear relationships).
+Implement techniques such as hyperparameter tuning (adjusting neurons, layers, and learning rates).
+Experiment with different architectures or alternative models, such as random forest classifiers or gradient boosting, which may offer better performance for tabular data.
