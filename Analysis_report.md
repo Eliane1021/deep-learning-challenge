@@ -10,6 +10,7 @@ What variable(s) are the target(s) for your model?
     Target Variable:
 
     IS_SUCCESSFUL: Indicates whether a charity application was successful (binary classification: 1 for success, 0 for failure).
+![image](https://github.com/user-attachments/assets/9534267c-c2bb-49a8-889e-7260c160b186)
 
 What variable(s) are the features for your model?
     Feature Variables:
@@ -28,6 +29,7 @@ How many neurons, layers, and activation functions did you select for your neura
     Input layer corresponding to the number of features.
     One or more hidden layers with neurons optimized based on experimentation.
     Activation functions such as ReLU for hidden layers and Sigmoid for binary classification output.
+![image](https://github.com/user-attachments/assets/6a2793b0-d1c4-41be-839d-75d8a155ad6f)
 
 Were you able to achieve the target model performance?
 
